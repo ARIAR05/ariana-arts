@@ -388,22 +388,25 @@
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
   .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
-    transform: scale(1.03);
-  }
+    transform: scale(1);
+   }
 
   .card-wrapper:hover .media.media--hover-effect > img:first-child:not(:only-child) {
     opacity: 0;
+ 
   }
 
   .card-wrapper:hover .media.media--hover-effect > img + img {
     opacity: 1;
     transition: transform var(--duration-long) ease;
-    transform: scale(1.03);
+    transform: scale(0.3);
+ 
   }
 
   .underline-links-hover:hover a {
     text-decoration: underline;
-    text-underline-offset: 0.3rem;
+    text-underline-offset: 0.35rem;
+
   }
 }
 
@@ -559,6 +562,7 @@
 
   .product-card-wrapper:hover .shape--round {
     clip-path: ellipse(47% 47% at 50% 50%);
+
   }
 
   .product-card-wrapper .shape--blob {
@@ -567,6 +571,7 @@
 
   .product-card-wrapper:hover .shape--blob {
     clip-path: polygon(var(--shape--blob-5));
+
   }
 
   .grid__item:nth-child(2n) .product-card-wrapper:hover .shape--blob {
