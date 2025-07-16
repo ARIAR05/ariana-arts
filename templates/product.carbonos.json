@@ -45,6 +45,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_WBR7if": {
+          "type": "text",
+          "settings": {
+            "text": "INFORMATION: {{ product.metafields.custom.charcoal_information.value }}",
+            "text_style": "body"
+          }
+        },
         "text_hJNPN9": {
           "type": "text",
           "settings": {
@@ -70,6 +77,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_WBR7if",
         "text_hJNPN9",
         "description",
         "share"
