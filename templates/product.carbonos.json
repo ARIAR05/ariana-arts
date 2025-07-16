@@ -45,18 +45,16 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_hJNPN9": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.charcoal_information.value }}",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "collapsible_tab_jGfcyx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Info de tipo de carbono",
-            "icon": "recycle",
-            "content": "<p>El tipo de extraccion es: {{ product.metafields.custom.carbono_info.value.proceso.value }}, es variante: {{ product.metafields.custom.carbono_info.value.clasificacion.value }} y su porosidad se considera {{ product.metafields.custom.carbono_info.value.porosidad.value }}</p>",
-            "page": ""
-          }
         },
         "share": {
           "type": "share",
@@ -72,8 +70,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_hJNPN9",
         "description",
-        "collapsible_tab_jGfcyx",
         "share"
       ],
       "settings": {
